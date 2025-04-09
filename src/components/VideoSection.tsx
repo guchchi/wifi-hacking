@@ -32,7 +32,7 @@ const VideoSection = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Video Demonstrations</h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            Watch detailed demonstrations of the techniques covered in our tutorials.
+            Watch detailed demonstrations of the techniques covered in our tutorials by ALX-17.
           </p>
           <div className="w-24 h-1 bg-hack-green mx-auto mt-4"></div>
         </div>
@@ -61,7 +61,7 @@ const VideoSection = () => {
               </div>
               <h3 className="text-lg font-bold mt-4 mb-2">{video.title}</h3>
               <p className="text-sm text-gray-400">
-                {video.isShort ? "YouTube Short" : "Learn the complete process with this step-by-step video tutorial."}
+                {video.isShort ? "ALX-17 YouTube Short" : "Presented by ALX-17 - Learn the complete process with this step-by-step video tutorial."}
               </p>
             </div>
           ))}

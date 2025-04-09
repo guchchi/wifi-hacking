@@ -30,7 +30,7 @@ const CreatorSection = () => {
     <section id="creator" className="bg-hack-dark py-20">
       <div className="section-container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">About the Creator</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Meet ALX-17</h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
             This website is created by ALX-17, a passionate tech content creator and YouTuber. 
             Known for hands-on tutorials on Raspberry Pi, VS Code, Ethical Hacking, and open-source tools, 
@@ -45,7 +45,7 @@ const CreatorSection = () => {
             className="mt-6 inline-flex items-center text-hack-green hover:text-white transition-colors"
           >
             <Youtube className="w-5 h-5 mr-2" />
-            Visit YouTube Channel
+            Subscribe to ALX-17's YouTube Channel
           </a>
         </div>
         

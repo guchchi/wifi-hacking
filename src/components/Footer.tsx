@@ -21,7 +21,7 @@ const Footer = () => {
               className="flex items-center text-gray-400 hover:text-hack-green transition-colors"
             >
               <Mail className="h-4 w-4 mr-1" />
-              Request Tutorials
+              Request Tutorials from ALX-17
             </a>
             
             <a 
@@ -31,7 +31,7 @@ const Footer = () => {
               className="flex items-center text-gray-400 hover:text-hack-green transition-colors"
             >
               <Youtube className="h-5 w-5 mr-1" />
-              YouTube
+              ALX-17 YouTube
             </a>
             
             <a href="#" className="text-gray-400 hover:text-hack-green transition-colors">
