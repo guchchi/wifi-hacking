@@ -23,6 +23,13 @@ const VideoSection = () => {
       thumbnail: "https://img.youtube.com/vi/RJcan3vQOSc/maxresdefault.jpg",
       youtubeId: "RJcan3vQOSc",
       isShort: true
+    },
+    {
+      id: 4,
+      title: "WiFi Hacking Techniques",
+      thumbnail: "https://img.youtube.com/vi/sgPR6bVZX0w/maxresdefault.jpg",
+      youtubeId: "sgPR6bVZX0w",
+      isShort: true
     }
   ];
 

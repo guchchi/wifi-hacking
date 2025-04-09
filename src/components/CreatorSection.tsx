@@ -23,6 +23,13 @@ const CreatorSection = () => {
       title: "Wi-Fi Hacking Setup with Kali Linux",
       thumbnail: "https://img.youtube.com/vi/FpUL9XrBzfs/maxresdefault.jpg",
       youtubeId: "FpUL9XrBzfs"
+    },
+    {
+      id: 4,
+      title: "WiFi Hacking Techniques",
+      thumbnail: "https://img.youtube.com/vi/sgPR6bVZX0w/maxresdefault.jpg",
+      youtubeId: "sgPR6bVZX0w",
+      isShort: true
     }
   ];
 
