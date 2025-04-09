@@ -7,14 +7,16 @@ const CreatorSection = () => {
     {
       id: 1,
       title: "How to Install Kali Linux on Raspberry Pi",
-      thumbnail: "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
-      youtubeId: "dQw4w9WgXcQ"
+      thumbnail: "https://img.youtube.com/vi/CzhNgRi7d3Y/maxresdefault.jpg",
+      youtubeId: "CzhNgRi7d3Y",
+      isShort: true
     },
     {
       id: 2,
-      title: "Top Raspberry Pi Projects That Feel Illegal",
-      thumbnail: "https://img.youtube.com/vi/Ibz_4c1QVbA/maxresdefault.jpg",
-      youtubeId: "Ibz_4c1QVbA"
+      title: "Kali Linux on VNC",
+      thumbnail: "https://img.youtube.com/vi/RJcan3vQOSc/maxresdefault.jpg",
+      youtubeId: "RJcan3vQOSc",
+      isShort: true
     },
     {
       id: 3,
@@ -57,7 +59,9 @@ const CreatorSection = () => {
                   className="w-full h-48 object-cover"
                 />
                 <a 
-                  href={`https://www.youtube.com/watch?v=${video.youtubeId}`}
+                  href={video.isShort 
+                    ? `https://youtube.com/shorts/${video.youtubeId}` 
+                    : `https://www.youtube.com/watch?v=${video.youtubeId}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 hover:bg-opacity-30 transition-all"
