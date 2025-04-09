@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Custom colors
+				"hack-dark": "#0d1117",
+				"hack-green": "#4ADE80",
+				"hack-blue": "#64748b",
+				"hack-gray": "#1e293b",
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +68,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			fontFamily: {
+				mono: ["JetBrains Mono", "monospace"],
+				sans: ["Inter", "sans-serif"],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +94,28 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'typing': {
+					'0%': {
+						width: '0'
+					},
+					'100%': {
+						width: '100%'
+					}
+				},
+				'blink-caret': {
+					'0%, 100%': {
+						borderColor: 'transparent'
+					},
+					'50%': {
+						borderColor: '#4ADE80'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'typing': 'typing 3.5s steps(40, end), blink-caret .75s step-end infinite'
 			}
 		}
 	},
