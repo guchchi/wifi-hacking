@@ -31,20 +31,10 @@ const HeroSection = () => {
             <code className="font-mono text-hack-green text-lg"># sudo airmon-ng start wlan0</code>
           </div>
           
-          <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="#tutorials" className="btn-primary flex items-center justify-center gap-2 mx-auto w-fit">
+          <div className="flex justify-center">
+            <a href="#tutorials" className="btn-primary flex items-center justify-center gap-2">
               Start Learning Now
               <ArrowRight className="h-5 w-5" />
-            </a>
-            
-            <a 
-              href="https://www.youtube.com/@ALX-17"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-red-600 text-white font-medium py-3 px-6 rounded-md 
-                     hover:bg-opacity-90 transition-all duration-200 inline-flex items-center gap-2"
-            >
-              Subscribe to ALX-17
             </a>
           </div>
         </div>

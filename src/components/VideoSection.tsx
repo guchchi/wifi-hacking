@@ -93,23 +93,14 @@ const VideoSection = () => {
                   </div>
                 </a>
               </div>
-              <h3 className="text-lg font-bold mt-4 mb-2">{video.title}</h3>
-              <p className="text-sm text-gray-400">
-                {video.isShort ? "ALX-17 YouTube Short" : "Presented by ALX-17 - Learn the complete process with this step-by-step video tutorial."}
-              </p>
+              <div className="p-4">
+                <h3 className="text-lg font-bold mb-2">{video.title}</h3>
+                <p className="text-sm text-gray-400">
+                  {video.isShort ? "ALX-17 YouTube Short" : "Presented by ALX-17 - Learn the complete process with this step-by-step video tutorial."}
+                </p>
+              </div>
             </div>
           ))}
-        </div>
-        
-        <div className="mt-10 text-center">
-          <a 
-            href="https://www.youtube.com/@ALX-17"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-red-600 text-white font-bold py-4 px-8 rounded-lg inline-flex items-center gap-2 hover:bg-red-700 transition-colors"
-          >
-            <Play className="h-6 w-6" /> Watch More on ALX-17's YouTube Channel
-          </a>
         </div>
       </div>
     </section>

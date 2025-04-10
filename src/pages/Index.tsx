@@ -12,7 +12,6 @@ import PrecautionsPage from '@/components/PrecautionsPage';
 import ToolsPage from '@/components/ToolsPage';
 import RoadmapSection from '@/components/RoadmapSection';
 import BugReportForm from '@/components/BugReportForm';
-import DownloadableResources from '@/components/DownloadableResources';
 import FAQSection from '@/components/FAQSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
@@ -27,7 +26,6 @@ const Index = () => {
       <TutorialSection />
       <VideoSection />
       <CommandLibrary />
-      <DownloadableResources />
       <PrecautionsPage />
       <ToolsPage />
       <RoadmapSection />
