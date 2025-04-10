@@ -1,73 +1,65 @@
-# Welcome to your Lovable project
+🕵️‍♂️ WiFi Hacking Tutorial Website (Educational Only) — by ALX-17
 
-## Project info
+Welcome to the official **WiFi Hacking Educational Website** built by **[ALX-17](https://www.youtube.com/@ALX-17)** 🔥  
+This site was created based on popular demand from my YouTube community — where I show you how to ethically test WiFi networks using **Kali Linux on a Raspberry Pi**.
 
-**URL**: https://lovable.dev/projects/f4b5f609-a0a6-4491-ad12-19a0e9b659a9
 
-## How can I edit this code?
+🔍 What’s Inside
 
-There are several ways of editing your application.
+- ✅ Complete step-by-step tutorial with screenshots  
+- ✅ List of tools used (with download links)  
+- ✅ Setup instructions for Raspberry Pi + Kali  
+- ✅ Security precautions & warnings  
+- ✅ Common errors & how to fix them  
+- ✅ Embedded reference videos  
+- ✅ Designed for beginners with curiosity
 
-**Use Lovable**
+> ⚠️ **Strictly for Educational Use Only**  
+> Accessing WiFi networks without permission is illegal. This website is meant to help you learn, test your own network, and improve your cybersecurity skills.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f4b5f609-a0a6-4491-ad12-19a0e9b659a9) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🌐 Website Link
 
-**Use your preferred IDE**
+👉 [https://your-github-username.github.io/wifi-hacking-tutorial](https://your-github-username.github.io/wifi-hacking-tutorial)  
+*(replace this with your actual GitHub Pages link)*
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 👤 About Me — ALX-17
 
-Follow these steps:
+I’m **ALX-17**, a tech YouTuber creating short & powerful content on:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Raspberry Pi hacks
+- Ethical hacking tools
+- Cybersecurity awareness
+- Smart tools, tech tips, and coding
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🎥 Subscribe to my channel → [https://www.youtube.com/@ALX-17](https://www.youtube.com/@ALX-17)
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🚀 Coming Soon
 
-**Edit a file directly in GitHub**
+- 🌓 Dark mode support  
+- 📝 PDF version of the tutorial  
+- 📦 Downloadable tools pack  
+- 💬 Live comment/discussion section  
+- 🎥 More embedded videos and tutorials
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🤝 Connect With Me
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- 📺 YouTube: [@ALX-17](https://www.youtube.com/@ALX-17)  
+- 💬 Drop comments in my videos or open issues here  
+- 📧 Business inquiries: *(Add your email if you want)*
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 💬 Final Note
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+If you're really serious about understanding WiFi hacking & protection, this site is your launchpad.  
+Built with love, curiosity, and 100% dedication for my fellow learners.
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f4b5f609-a0a6-4491-ad12-19a0e9b659a9) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**~ ALX-17**
