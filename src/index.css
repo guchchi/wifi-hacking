@@ -93,6 +93,10 @@
     @apply border-border;
   }
 
+  html {
+    @apply scroll-smooth;
+  }
+
   body {
     @apply bg-hack-dark text-foreground font-sans;
   }
@@ -129,7 +133,7 @@
 @layer components {
   .btn-primary {
     @apply bg-hack-green text-hack-dark font-medium py-3 px-6 rounded-md 
-           hover:bg-opacity-90 transition-all duration-200 inline-block;
+           hover:bg-opacity-90 transition-all duration-200 inline-block font-mono;
   }
 
   .nav-link {
@@ -139,4 +143,61 @@
   .card {
     @apply bg-hack-gray rounded-lg border border-gray-800 p-6 shadow-lg hover:shadow-xl transition-all duration-300;
   }
+  
+  /* Matrix Rain Effect */
+  .matrix-code {
+    @apply font-mono text-hack-green text-opacity-20 select-none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(13,17,23,1) 100%);
+    overflow: hidden;
+  }
+  
+  .matrix-code::before {
+    content: "01001000 01100001 01100011 01101011 00100000 01000101 01110100 01101000 01101001 01100011 01100001 01101100 00100000 01001011 01100001 01101100 01101001 00100000 01001100 01101001 01101110 01110101 01111000";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    letter-spacing: 2px;
+    font-size: 16px;
+    transform: rotate(45deg);
+    opacity: 0.2;
+  }
+  
+  /* Blinking cursor effect */
+  .blink-cursor::after {
+    content: "|";
+    animation: blink 1s step-end infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 8px rgba(74, 222, 128, 0.5);
+  }
+  
+  .border-glow {
+    box-shadow: 0 0 5px rgba(74, 222, 128, 0.5);
+  }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #4ADE80 }
 }

@@ -2,18 +2,11 @@
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
-import AboutSection from '@/components/AboutSection';
-import TutorialSection from '@/components/TutorialSection';
+import ToolsRequiredSection from '@/components/ToolsRequiredSection';
+import StepByStepGuide from '@/components/StepByStepGuide';
 import VideoSection from '@/components/VideoSection';
-import CreatorSection from '@/components/CreatorSection';
-import CommandLibrary from '@/components/CommandLibrary';
-import AuthSection from '@/components/AuthSection';
 import PrecautionsPage from '@/components/PrecautionsPage';
-import ToolsPage from '@/components/ToolsPage';
-import RoadmapSection from '@/components/RoadmapSection';
-import BugReportForm from '@/components/BugReportForm';
-import FAQSection from '@/components/FAQSection';
-import ContactSection from '@/components/ContactSection';
+import NoLoginBox from '@/components/NoLoginBox';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -21,18 +14,11 @@ const Index = () => {
     <div className="min-h-screen bg-hack-dark text-white">
       <Navbar />
       <HeroSection />
-      <AboutSection />
-      <AuthSection />
-      <TutorialSection />
-      <VideoSection />
-      <CommandLibrary />
+      <ToolsRequiredSection />
       <PrecautionsPage />
-      <ToolsPage />
-      <RoadmapSection />
-      <CreatorSection />
-      <BugReportForm />
-      <FAQSection />
-      <ContactSection />
+      <StepByStepGuide />
+      <VideoSection />
+      <NoLoginBox />
       <Footer />
     </div>
   );

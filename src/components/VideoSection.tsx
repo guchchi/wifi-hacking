@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Play } from 'lucide-react';
+import { Youtube, Play } from 'lucide-react';
 
 const VideoSection = () => {
   const videos = [
@@ -32,9 +32,9 @@ const VideoSection = () => {
     <section id="videos" className="bg-hack-gray py-20">
       <div className="section-container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Video Demonstrations by ALX-17</h2>
+          <h2 className="text-3xl md:text-4xl font-mono font-bold mb-4">Video References</h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            Watch detailed demonstrations of the techniques covered in our tutorials, created exclusively by ALX-17.
+            Watch these tutorials from the ALX-17 YouTube channel for visual demonstrations.
           </p>
           <div className="w-24 h-1 bg-hack-green mx-auto mt-4"></div>
         </div>
@@ -71,7 +71,7 @@ const VideoSection = () => {
           </div>
         )}
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           {videos.filter(video => !video.isFeatured).map((video) => (
             <div key={video.id} className="card overflow-hidden">
               <div className="relative">
@@ -101,6 +101,18 @@ const VideoSection = () => {
               </div>
             </div>
           ))}
+        </div>
+        
+        <div className="mt-8 text-center">
+          <a 
+            href="https://www.youtube.com/@ALX-17"
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="inline-flex items-center text-hack-green hover:text-white transition-colors"
+          >
+            <Youtube className="w-5 h-5 mr-2" />
+            Check out more tutorials on the ALX-17 YouTube Channel
+          </a>
         </div>
       </div>
     </section>
